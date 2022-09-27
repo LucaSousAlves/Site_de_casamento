@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JOSY&HUGO</title>
+    <link rel="stylesheet" type="text/css" href="style_produtos.css" />
+    <link rel="icon" type="image/png" href="icon.png"/>  
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+       $(document).ready(function() {
+          $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+          });
+    });
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+                $('nav').addClass('black');
+          }
+
+          else {
+                $('nav').removeClass('black');
+          }
+    })
+  </script>
+    
+ </head>
+ <body>
+    <div class="wrapper">
+       <header>
+          <nav>
+             <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+             </div>
+             <div class="logo">
+             </div>
+             <div class="menu">
+                <ul class="mouse">
+                   <li ><a href="index.html">Página inicial</a></li>
+                   <li ><a href="lista_presente.html">Lista de presentes</a></li>
+                   <li ><a href="info.html">Informações</a></li>
+                   <li ><a href="contato.html">Contato</a></li>
+                   
+                </ul>
+             </div>
+          </nav>
+       </header>
+       <div class="container-alfa">
+      
+         <a href="escolhido.html" target="">
+            <img src="imagens/jogo_cama2.png" alt="" >
+          </a>
+         <h5> Jogo de cama </h5> </BR>
+   
+       </div>
+   
+       <div class="container-alfa">
+         <a href="escolhido.html" target="">
+            <img src="imagens/edredom2.png" alt="" >
+          </a>
+         <h5> Edredom / Cobertor</h5> </BR> 
+       </div>
+        
+       <div class="container-alfa">
+         <a href="https://www.amazon.com.br/Climatizador-Ar-Brit%C3%A2nia-BCL01F-127V/dp/B07JZKNKZN/ref=asc_df_B07JZKNKZN/?tag=googleshopp00-20&linkCode=df0&hvadid=379765664396&hvpos=&hvnetw=g&hvrand=3035579233917492477&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-809125342707&th=1" target="_blank">
+            <img src="imagens/clim.jpg" alt="" >
+          </a>
+         <h5> Climatizador de ar</h5> </BR> 
+       </div>
+       <div class="container-alfa">
+         <a href="https://www.amazon.com.br/Climatizador-Ar-Brit%C3%A2nia-BCL01F-127V/dp/B07JZKNKZN/ref=asc_df_B07JZKNKZN/?tag=googleshopp00-20&linkCode=df0&hvadid=379765664396&hvpos=&hvnetw=g&hvrand=14480158567035608765&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-809125342707&psc=1" target="_blank">
+            <img src="imagens/vento.jpg" alt="" >
+          </a>
+         <h5> Ventilador</h5> </BR> 
+       </div>
+      
+
+
+       <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5561982828634" target="_blank"> 
+         <i class="fa fa-whatsapp"></i>
+       </a>
+   
+
+
+
+
+
+
+
+
+
+
+   </body>
+</html>

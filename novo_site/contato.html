@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HUGO & JOSY</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="icon" type="image/png" href="icon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+         $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+      
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               </div>
+               <div class="menu">
+                  <ul class="mouse">
+                     <li ><a href="index.html">Página inicial</a></li>
+                     <li ><a href="lista_presente.html">Lista de presentes</a></li>
+                     <li ><a href="info.html">Informações</a></li>
+                     <li ><a href="#">Contato</a></li>
+                     
+                  </ul>
+               </div>
+            </nav>
+         </header>
+      </div>
+         <div class="content">
+            <div class="inicio">
+            <h1>Contato</h1>
+            <h3>Hugo:</h3><h4 class="cont"><a id="lista2"   href="https://api.whatsapp.com/send?phone=5561992247605">(61) 9 92247605 </a></h4><br>
+            <h3>Josy:</h3><h4 class="cont"><a id="lista2"   href="https://api.whatsapp.com/send?phone=5561982828634">(61) 9 82828634 </a></h4><br>
+            <h3>Endereço:</h3><h4 class="end">Qnp 28  conjunto X casa 8A</h4><br>
+            
+            
+   
+         
+            </div>
+         </div>
+         </div>
+   </body>
+</html>

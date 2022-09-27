@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HUGO & JOSY</title>
+      <link rel="stylesheet" type="text/css" href="estilo.css" />
+      <link rel="icon" type="image/png" href="icon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+         $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+      
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               </div>
+               <div class="menu">
+                  <ul class="mouse">
+                     <li ><a href="#">Página inicial</a></li>
+                     <li ><a href="lista_presente.html">Lista de presentes</a></li>
+                     <li ><a href="info.html">Informações</a></li>
+                     <li ><a href="contato.html">Contato</a></li>
+                     
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="content">
+            <div class="inicio">
+           
+                <h1> Nossa História </h1>
+                <h4>Através de um grupo social de amigos em comum, criado em 2016, o casal se conhece pela primeira vez. A partir de então Hugo e Josy constroem uma amizade que os levarão até a eternidade...
+                  Josy sempre orava pedindo que encontrasse uma pessoa que a respeitasse, a amasse e acima de tudo, amasse a Deus mais que a ela. Em 2017, Hugo orou a Deus para que colocasse alguém especial em sua vida, diante das preces, pediu uma pessoa com as características de Josy -mesmo sem saber-. 
+                  No dia 13/01/2018, marcaram o primeiro encontro para se conhecerem melhor, e desde então criaram sentimentos mútuos e, já no segundo encontro (20/01/2018) aconteceu o pedido de namoro, dando-se assim, o inicio de uma linda história de amor que tomou um novo caminho no dia 14/06/2020, momento o qual decidiram dar um passo adiante em suas vidas fazendo a escolha de se unirem em uma só carne - NOIVANDO!! - e hoje, estão se preparando para o tão esperado e sonhado grande dia, a data escolhida foi: dia 14/11/2022.  Onde, realizarão a cerimônia ao lado de pessoas especiais e importantes em suas vidas, como você. Sejam-bem vindos ao nosso sonho e a nossa história!
+                  </h4>
+         
+            </div>
+            <p>
+               
+            </p>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>JOSY&HUGO</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="icon" type="image/png" href="icon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+         $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+      
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               </div>
+               <div class="menu">
+                  <ul class="mouse">
+                     <li ><a href="index.html">Página inicial</a></li>
+                     <li ><a href="#">Lista de presentes</a></li>
+                     <li ><a href="info.html">Informações</a></li>
+                     <li ><a href="contato.html">Contato</a></li>
+                     
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         
+      
+           
+            <div class="lista1">
+            <p>
+               <a class="list" href="area-servico.html"><h1>Área de serviço</h1></a>
+            </p>
+         </div>
+      
+      <div class="lista1">
+   <p>
+      <a class="list" href="cozinha.html"><h1>Cozinha</h1></a>
+   </p>
+</div>
+<div class="lista1">
+<p>
+   <a class="list" href="banheiro.html"><h1>Banheiro</h1></a>
+</p>
+</div>
+<div class="lista1">
+<p>
+   <a class="list" href="quarto.html"><h1>Quarto</h1></a>
+</p>
+  </div>
+   </body>
+</html>

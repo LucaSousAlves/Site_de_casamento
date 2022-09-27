@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HUGO & JOSY</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="icon" type="image/png" href="icon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+         $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+      
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               </div>
+               <div class="menu">
+                  <ul class="mouse">
+                     <li ><a href="index.html">Página inicial</a></li>
+                     <li ><a href="lista_presente.html">Lista de presentes</a></li>
+                     <li ><a href="#">Informações</a></li>
+                     <li ><a href="contato.html">Contato</a></li>
+                     
+                  </ul>
+               </div>
+            </nav>
+         </header>
+      </div>
+      <div class="content">
+         <div class="inicio">
+            <h1>Informações sobre o site</h1>
+            <h4>As imagens dos produtos e os links das lojas são exemplos, entrem em contato com os noivos para mais detalhes. </h4>
+            <h4>Ao escolher um item, clique no ícone do whatsapp para entrar em contato com os noivos</h4>
+         </br>
+         </br>
+         <h1>Informações do casamento</h1>
+         <h3>Data:</h3><h4 class="numero">14/11/2022</h4><br>
+         <h3>Horário:</h3><h4 class="numero">20:30</h4><br>
+         <h3>Local:</h3><h4 class="numero">Chácara Ilha Festas e Eventos (Condomínio quinta dos Amarante conjunto H1 casa 5)</h4><br>
+
+         
+
+         <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.741664893443!2d-48.21865768514479!3d-15.817569989036821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac36c2e64960b552!2zMTXCsDQ5JzAzLjMiUyA0OMKwMTInNTkuMyJX!5e0!3m2!1spt-BR!2sbr!4v1660527715199!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+         </div>
+         <div class="entrada">
+            <h3>Foto da entrada:</h3><h4 class="numero"> </h4><br>
+         </div>
+         <div class="entrada">
+            <img id="entrada1" src="imagens/entrada.jpeg" alt="" width="100%" height="100%">
+         </div>
+         
+         
+         
+
+      
+         </div>
+      </div>
+      </div>
+   
+   </body>
+</html>
+
+
+
+
+            
